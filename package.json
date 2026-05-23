@@ -1,0 +1,32 @@
+{
+  "name": "nexus-tax-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Copiloto comercial tributário — CNPJ → dossiê estratégico",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --noEmit",
+    "dev:up": "npx tsx scripts/dev-up.ts",
+    "dev:reset": "npx tsx scripts/dev-reset.ts",
+    "check:system": "npx tsx scripts/check-system.ts",
+    "gen:test-dossiers": "npx tsx scripts/generate-test-dossiers.ts"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.383.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.5",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tsx": "^4.16.0"
+  }
+}
